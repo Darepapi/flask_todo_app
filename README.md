@@ -1,9 +1,9 @@
-[![Contributors][contributors-shield]][https://github.com/Darepapi/flask_todo_app/graphs/contributors]
-[![Forks][forks-shield]][https://github.com/Darepapi/flask_todo_app/network/members]
-[![Stargazers][stars-shield]][https://github.com/Darepapi/flask_todo_app/stargazers]
-[![Issues][issues-shield]][https://github.com/Darepapi/flask_todo_app/issues]
-[![MIT License][license-shield]][https://github.com/Darepapi/flask_todo_app/blob/master/LICENSE.txt]
-[![LinkedIn][linkedin-shield]][https://linkedin.com/afolabi-dare]
+[![Contributors][contributors-shield]]['https://github.com/Darepapi/flask_todo_app/graphs/contributors']
+[![Forks][forks-shield]]['https://github.com/Darepapi/flask_todo_app/network/members']
+[![Stargazers][stars-shield]]['https://github.com/Darepapi/flask_todo_app/stargazers']
+[![Issues][issues-shield]]['https://github.com/Darepapi/flask_todo_app/issues']
+[![MIT License][license-shield]]['https://github.com/Darepapi/flask_todo_app/blob/master/LICENSE.txt']
+[![LinkedIn][linkedin-shield]]['https://linkedin.com/afolabi-dare']
 
 
 
