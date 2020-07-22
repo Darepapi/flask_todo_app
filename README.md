@@ -101,7 +101,7 @@ USE your_database_name;
 
 3. Import MySql Database
 ```sh
-source todo_db.sql;
+source todo.sql;
 ```
 
 4. Enter Mysql connection details in app.py
