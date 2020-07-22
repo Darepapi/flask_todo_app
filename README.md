@@ -67,7 +67,7 @@ To get a local copy up and running follow these simple steps listed below.
 
 * Python
 ```sh
-Download python at [https://www.python.org](https://www.python.org)
+Download python from <a href="https://www.python.org">python.org</a>
 ```
 
 * Flask
@@ -82,7 +82,7 @@ pip install Flask-login
 
 * MySql
 ```sh
-You can get a community edition at [https://dev.mysql.com/downloads/mysql/](https://dev.mysql.com/downloads/mysql/)
+You can get a community edition at <a href="https://dev.mysql.com/downloads/mysql/">https://dev.mysql.com/downloads/mysql/</a>
 ```
 
 * Werkzeug
@@ -94,7 +94,7 @@ auto installed with flask
 
 1. Clone the repo
 ```sh
-git clone [https://github.com/Darepapi/flask_todo_app.git](https://github.com/Darepapi/flask_todo_app.git)
+git clone https://github.com/Darepapi/flask_todo_app.git
 ```
 
 2. Create MySql Database
