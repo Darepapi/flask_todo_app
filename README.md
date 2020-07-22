@@ -1,11 +1,3 @@
-[![Contributors][contributors-shield]]['https://github.com/Darepapi/flask_todo_app/graphs/contributors']
-[![Forks][forks-shield]]['https://github.com/Darepapi/flask_todo_app/network/members']
-[![Stargazers][stars-shield]]['https://github.com/Darepapi/flask_todo_app/stargazers']
-[![Issues][issues-shield]]['https://github.com/Darepapi/flask_todo_app/issues']
-[![MIT License][license-shield]]['https://github.com/Darepapi/flask_todo_app/blob/master/LICENSE.txt']
-[![LinkedIn][linkedin-shield]]['https://linkedin.com/afolabi-dare']
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -162,6 +154,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
 Afolabi Dare - [@thepharmProg](https://twitter.com/thepharmProg) - mandatedisrael@gmail.com
+[Linkedin](https://linkedin.com/in/afolabi-dare)
 
 Project Link: [https://github.com/Darepapi/flask_todo_app](https://github.com/Darepapi/flask_todo_app)
 
