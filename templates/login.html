@@ -1,0 +1,35 @@
+{%extends "layout.html"%}
+
+{%block html%}
+    <body class="login-page">
+        <div class="login">
+            <div class="login-box">
+                <h1 id="login">Login</h1>
+                <div class="alert-message">
+                    {% with messages = get_flashed_messages() %}
+                    {%if messages%}
+                    {% for message in messages %}
+                        <p id='flash-login'>{{ message }}</p>
+                    {% endfor %}
+                    {% endif %}
+                    {%endwith%}
+                </div>
+                <form action="/login" method="POST">
+                    <div class="textbox">
+                        <input type="text" required minlength="4" name="username" id="username"   placeholder="Username">
+                    </div>
+                    <div class="textbox">
+                        <input type="password" maxlength="20" minlength="1" required name="password" id="password" placeholder="Password">
+                    </div>
+                    <input type="submit" class="button" value="Login">
+                    <div class="signup">Dont have an account yet? <a href="{{ url_for('signUp') }}" id="signup">Sign up</a>
+                    </div>
+            </div>
+            <div class="login-quotes">
+                In everyday, there are 1,440 minutes.That means we have 1,440 daily opportunities to make a positive impact. <span>-Les Brown</span>
+            </div>
+        </div>
+
+    </body>
+
+{%endblock%}

@@ -1,0 +1,34 @@
+{%extends "layout.html"%}
+
+{%block html%}
+
+    <body class="signup-page">
+        <form action="/signup" class='signup-box' method="POST">
+            <h2>Create Account</h2>
+            <div class="alert-message">
+                {%with messages = get_flashed_messages()%}
+                    {%if messages%}
+                        {% for message in messages%}
+                            <p id="flash-signup"></p>{{ message }}
+                        {% endfor %}
+                    {% endif %}
+                {% endwith %}
+            </div>
+
+            <input type="text" class="signup-username" placeholder="Username" name="username" required minlength="4">
+            <input type="password" class="signup-password" placeholder="Password" name="password" required minlength="4">
+            <input type="email" class="signup-email" placeholder="E-mail" required name="mail" minlength="4">
+            <input type="text" class="signup-number" placeholder="Mobile-number" required name="number" minlength="4">
+            <div class="btn-signup"><input type="submit" class="signup-submit" value="Sign Up"></div>
+            <div class="login-prompt">
+                Already have an account? <a href={{ url_for('login') }}>Login</a>
+            </div>
+        </form>
+
+        <div class="signup-quotes">
+            In everyday, there are 1,440 minutes.That means we have 1,440 daily opportunities to make a positive impact. <span>-Les Brown</span>
+        </div>
+
+    </body>
+
+{%endblock%}
