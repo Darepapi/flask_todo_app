@@ -67,7 +67,7 @@ To get a local copy up and running follow these simple steps listed below.
 
 * Python
 ```sh
-Download python from <a href="https://www.python.org">python.org</a>
+Download python from [python.org](https://python.org)
 ```
 
 * Flask
@@ -82,7 +82,7 @@ pip install Flask-login
 
 * MySql
 ```sh
-You can get a community edition at <a href="https://dev.mysql.com/downloads/mysql/">https://dev.mysql.com/downloads/mysql/</a>
+You can get a community edition at [mysql](https://dev.mysql.com)
 ```
 
 * Werkzeug
